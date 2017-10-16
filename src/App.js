@@ -12,6 +12,7 @@ import {
     QrCode as QrCodeIcon,
     Copy as CopyIcon,
     Gear as GearIcon,
+    Add as AddIcon,
 } from 'emerald-js/lib/ui/icons';
 
 import IconDemo from './components/iconDemo';
@@ -27,6 +28,9 @@ class App extends Component {
         </header>
           <div>
               <h3>Emerald Icons</h3>
+              <div>
+                  <IconDemo><AddIcon/></IconDemo>
+              </div>
               <div>
                   <IconDemo><RepeatIcon/></IconDemo>
               </div>
