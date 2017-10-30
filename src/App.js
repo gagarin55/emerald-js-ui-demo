@@ -13,6 +13,7 @@ import {
     Copy as CopyIcon,
     Gear as GearIcon,
     Add as AddIcon,
+    Search as SearchIcon,
 } from 'emerald-js/lib/ui/icons';
 
 import IconDemo from './components/iconDemo';
@@ -30,6 +31,9 @@ class App extends Component {
               <h3>Emerald Icons</h3>
               <div>
                   <IconDemo><AddIcon/></IconDemo>
+              </div>
+              <div>
+                  <IconDemo><SearchIcon/></IconDemo>
               </div>
               <div>
                   <IconDemo><RepeatIcon/></IconDemo>
