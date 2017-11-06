@@ -14,6 +14,7 @@ import {
     Gear as GearIcon,
     Add as AddIcon,
     Search as SearchIcon,
+    Ledger as LedgerIcon,
 } from 'emerald-js/lib/ui/icons';
 
 import IconDemo from './components/iconDemo';
@@ -29,6 +30,9 @@ class App extends Component {
         </header>
           <div>
               <h3>Emerald Icons</h3>
+              <div>
+                  <IconDemo><LedgerIcon/></IconDemo>
+              </div>
               <div>
                   <IconDemo><AddIcon/></IconDemo>
               </div>
