@@ -15,7 +15,8 @@ import {
     Add as AddIcon,
     Search as SearchIcon,
     Ledger as LedgerIcon,
-} from 'emerald-js/lib/ui/icons';
+    ArrowLeft as ArrowLeftIcon,
+} from 'emerald-js-ui/lib/icons';
 
 import IconDemo from './components/iconDemo';
 
@@ -62,6 +63,9 @@ class App extends Component {
               </div>
               <div>
                   <IconDemo><GearIcon/></IconDemo>
+              </div>
+              <div>
+                  <IconDemo><ArrowLeftIcon/></IconDemo>
               </div>
               <h3>Material-UI Icons</h3>
               <div>
